@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tantto\\Fail2BanLaravel\\": "packages/tantto/fail-2-ban-laravel"
+            "Tantto\\Fail2BanLaravel\\": "src/"
         }
     },
     "minimum-stability": "dev"

@@ -4,7 +4,7 @@ namespace Tantto\Fail2BanLaravel;
 
 use Illuminate\Support\ServiceProvider;
 
-class Fail2BanLaravelServiceProvider extends ServiceProvider
+class Fail2BanServiceProvider extends ServiceProvider
 {
 
     /**
@@ -29,6 +29,6 @@ class Fail2BanLaravelServiceProvider extends ServiceProvider
 
     protected function registerMigrations()
     {
-        return $this->loadMigrationsFrom(__DIR__ . '/database/migrations');
+        return $this->loadMigrationsFrom(__DIR__ . '/../database/migrations');
     }
 }

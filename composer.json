@@ -3,6 +3,9 @@
     "description": "Fail2Ban in Laravel",
     "type": "composer-plugin",
     "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.0"
+        },
         "class": [
             "Tantto\\Fail2BanLaravel\\Fail2Ban",
             "Tantto\\Fail2BanLaravel\\Fail2BanLaravelServiceProvider",

@@ -1,0 +1,10 @@
+{
+    "name": "tantto/fail-2-ban-laravel",
+    "description": "Fail2Ban in Laravel",
+    "type": "composer-plugin",
+    "authors": [{
+        "name": "Leonardo Antelmi",
+        "email": "leonardo.antelmi@tantto.com.br"
+    }],
+    "minimum-stability": "dev"
+}

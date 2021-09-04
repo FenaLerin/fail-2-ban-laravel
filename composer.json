@@ -2,12 +2,24 @@
     "name": "tantto/fail-2-ban-laravel",
     "description": "Fail2Ban in Laravel",
     "type": "composer-plugin",
+    "extra": {
+        "class": [
+            "Tantto\\Fail2BanLaravel\\Fail2Ban",
+            "Tantto\\Fail2BanLaravel\\Fail2BanLaravelServiceProvider",
+            "Tantto\\Fail2BanLaravel\\Fail2BanMiddleware"
+        ]
+    },
     "authors": [{
         "name": "Leonardo Antelmi",
         "email": "leonardo.antelmi@tantto.com.br"
     }],
     "require": {
         "nesbot/carbon": "^1.26.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tantto\\Fail2BanLaravel\\": "packages/tantto/fail-2-ban-laravel"
+        }
     },
     "minimum-stability": "dev"
 }

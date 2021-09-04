@@ -6,5 +6,8 @@
         "name": "Leonardo Antelmi",
         "email": "leonardo.antelmi@tantto.com.br"
     }],
+    "require": {
+        "nesbot/carbon": "^1.26.3"
+    },
     "minimum-stability": "dev"
 }
